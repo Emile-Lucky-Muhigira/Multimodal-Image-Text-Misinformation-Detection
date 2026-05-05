@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+
+# Temporary workspaces and extracted templates
+tmp_*/
+AuthorKit26/
+artifacts/
+overleaf_abstract/
+6981dc05ebba9ede62b43071/
+wipo_submission/
+wipo_submission.zip
+
+# Data
+data/
+!data/
+data/*
+!data/african_context/
+data/african_context/*
+!data/african_context/african_context_raw.csv
+!data/african_validation_images/
+data/african_validation_images/*
+!data/african_validation_images/README.md
+outputs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Logs
+*.out
+nohup.out
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Redundant demo model exports
+demo/*.pkl
+
+# Large files
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
